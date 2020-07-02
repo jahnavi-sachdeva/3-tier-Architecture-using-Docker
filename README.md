@@ -10,7 +10,9 @@ Commands used
 ``` 
 sudo docker build –t <image name> <path> 
 ```
+&nbsp;&nbsp;&nbsp;&nbsp; Used to build an image
 &nbsp;&nbsp;&nbsp;&nbsp;sudo docker build –t frontend .  
+
 ``` 
 sudo docker [commands] run 
 ```
