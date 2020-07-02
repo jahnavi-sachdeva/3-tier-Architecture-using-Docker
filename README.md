@@ -10,11 +10,11 @@ Commands used.
 •   Sudo docker build –t <image name> <path>  
         Sudo docker build –t frontend .  
 •   Sudo docker [commands] run  
-        -p <port to run on localhost> : <post on which it is exposed> :- port mapping  
-        --name <name>:- Name of the Container  
-        --network <network name> :- name of network
-        -it :- interactive mode
-        -d :- deattached mode
+        -p <port to run on localhost> : <post on which it is exposed> :- port mapping   
+        --name <name>:- Name of the Container    
+        --network <network name> :- name of network  
+        -it :- interactive mode  
+        -d :- deattached mode  
 •	Sudo docker rmi <image name>  
         -f :- forcefully delete the image  
 •	Sudo docker compose up  
