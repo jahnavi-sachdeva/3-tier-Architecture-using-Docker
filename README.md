@@ -7,11 +7,10 @@ Application Logic - tasks and rules which govern the process.
 Storage - persistent storage mechanism.  
 The singular quality of a three-tier architecture is the separation of the application logic into a distinct logical middle tier of software. The presentation tier is relatively free of application processing; windows forward task requests to the middle tier. The middle tier communicates with the back-end storage layer.  
 Commands used. 
-<ul>
-<li>Sudo docker build –t <image name> <path> </li>
+-Sudo docker build –t <image name> <path> 
 &nbsp;&nbsp;&nbsp;&nbsp;Sudo docker build –t frontend .  
 <li> Sudo docker [commands] run </li>
-&nbsp;&nbsp;&nbsp;&nbsp;-p <port to run on localhost> : <post on which it is exposed> :- port mapping   
+&nbsp;&nbsp;&nbsp;&nbsp; -p <port to run on localhost> : <post on which it is exposed> :- port mapping   
 &nbsp;&nbsp;&nbsp;&nbsp;--name <name>:- Name of the Container    
 &nbsp;&nbsp;&nbsp;&nbsp;--network <network name> :- name of network  
 &nbsp;&nbsp;&nbsp;&nbsp;-it :- interactive mode  
