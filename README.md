@@ -15,19 +15,19 @@ Commands used.
         --network <network name> :- name of network
         -it :- interactive mode
         -d :- deattached mode
-•	Sudo docker rmi <image name>
-        -f :- forcefully delete the image
-•	Sudo docker compose up
-•	Sudo docker compose down
-•	Sudo docker rm <container name>
-        -f :- forcefully delete the container
-•	sudo systemctl restart docker: restart docker
-•	sudo docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}} <container name/id>
-        to know the ip address of container
-•	sudo docker network create [options] network
-        docker network create -d bridge my-bridge-network
-•	sudo docker network connect <network name> <container name>
-•	sudo docker network inspect <network name>
-•	mysql –h <ip address> -u <user name> -p <password(if any)>
+•	Sudo docker rmi <image name>  
+        -f :- forcefully delete the image  
+•	Sudo docker compose up  
+•	Sudo docker compose down  
+•	Sudo docker rm <container name>  
+        -f :- forcefully delete the container  
+•	sudo systemctl restart docker: restart docker  
+•	sudo docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}} <container name/id>  
+        to know the ip address of container  
+•	sudo docker network create [options] network  
+        docker network create -d bridge my-bridge-network  
+•	sudo docker network connect <network name> <container name>  
+•	sudo docker network inspect <network name>  
+•	mysql –h <ip address> -u <user name> -p <password(if any)>  
 
  
