@@ -33,12 +33,12 @@ sudo docker [commands] run
 
 # To Build, (re)create, start, and attache to containers for a service.
 ```
- sudo docker compose up   
+ sudo docker-compose up   
 ```
 
 # To Stop containers and removes containers, networks, volumes, and images created by up
 ```
- sudo docker compose down
+ sudo docker-compose down
 ```
 
 # To delete the container
