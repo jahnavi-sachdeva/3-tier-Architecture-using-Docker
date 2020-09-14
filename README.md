@@ -72,6 +72,7 @@ sudo docker [commands] run
 ```
  sudo docker network inspect <network name>
 ```
+# get MySQL database server
 ```
  mysql –h <ip address> -u <user name> -p <password(if any)> 
 ```
