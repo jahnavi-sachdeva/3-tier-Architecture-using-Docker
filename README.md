@@ -47,7 +47,7 @@ sudo docker [commands] run
  sudo docker network create [options] network  
 ```
 ```
- docker network create -d bride my-bridge-network  
+ docker network create -d bridge my-bridge-network  
 ```
 ``` 
  sudo docker network connect <network name> <container name> 
